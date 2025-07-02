@@ -31,6 +31,10 @@ python -m venv venv
 venv\Scripts\activate   # Windows
 ```
 
+```bash
+cd david-ai-2b-main
+```
+
 ### 📦 2. Install All Dependencies
 
 ```bash
