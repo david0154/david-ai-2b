@@ -1,6 +1,9 @@
 # 🤖 David AI 2B – Offline AI Desktop Assistant
 
+<img src="static/davidai.png" alt="David AI 2B Logo" width="200" />
+
 David AI 2B is an AI-powered offline assistant developed by **Nexuzy Tech Pvt Ltd** and **David**. It supports:
+
 - 🧠 Chat using Mistral-7B (offline)
 - 👨‍💻 Code generation via StarCoder 1B
 - 🎨 Image generation using Stable Diffusion v1.5
@@ -127,7 +130,7 @@ dist/
 
 - `requirements.txt`
 - `README.md`
-- `david.ico` and `davidai.png`
+- `static/david.ico` and `static/davidai.png`
 
 ---
 
@@ -135,3 +138,9 @@ dist/
 
 Built by: **David**  
 Organization: **Nexuzy Tech Pvt Ltd**
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
