@@ -1,0 +1,37 @@
+# 🔹 Core Flask App
+flask
+
+# 🔹 Local LLM Inference
+llama-cpp-python
+
+# 🔹 Transformers + Hugging Face models
+torch
+transformers
+accelerate
+safetensors
+
+# 🔹 Diffusers (Stable Diffusion for image generation)
+diffusers
+
+# 🔹 Real-ESRGAN Deblur
+realesrgan
+basicsr
+opencv-python
+
+# 🔹 Voice Input (Offline)
+vosk
+sounddevice
+numpy
+
+# 🔹 Text-to-Speech and Automation
+pyttsx3
+pyautogui
+
+# 🔹 Language Detection (for multilingual voice commands)
+langdetect
+
+# 🔹 GUI Toolkit
+pillow
+
+# 🔹 Optional (for first-run downloading logic or custom UI, future-proof)
+requests
