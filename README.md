@@ -2,6 +2,15 @@
 
 <img src="static/davidai.png" alt="David AI 2B Logo" width="200" />
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-blue.svg" alt="Windows">
+  <img src="https://img.shields.io/badge/Bangla-Voice-green.svg" alt="Bangla">
+  <img src="https://img.shields.io/badge/Hindi-Voice-orange.svg" alt="Hindi">
+  <img src="https://img.shields.io/badge/English-Voice-yellow.svg" alt="English">
+  <img src="https://img.shields.io/badge/MIT-License-success.svg" alt="MIT License">
+</p>
+
 David AI 2B is an AI-powered offline assistant developed by **Nexuzy Tech Pvt Ltd** and **David**. It supports:
 
 - 🧠 Chat using Mistral-7B (offline)
