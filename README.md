@@ -53,8 +53,12 @@ cd david-ai-2b-main
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+           or
+```bash
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 
----
 
 ## 🚀 First Run – Download All Models
 
