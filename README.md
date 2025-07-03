@@ -1,5 +1,3 @@
-# 🤖 David AI 2B – Offline AI Desktop Assistant
-
 <img src="static/davidai.png" alt="David AI 2B Logo" width="200" />
 
 <p align="center">
@@ -11,9 +9,11 @@
   <img src="https://img.shields.io/badge/MIT-License-success.svg" alt="MIT License">
 </p>
 
+# David AI 2B
+
 David AI 2B is an AI-powered offline assistant developed by **Nexuzy Tech Pvt Ltd** and **David**. It supports:
 
-- 🧠 Chat using Mistral-7B (offline)
+- 🤖 Chat using Mistral-7B (offline)
 - 👨‍💻 Code generation via StarCoder 1B
 - 🎨 Image generation using Stable Diffusion v1.5
 - 🧼 Image deblurring using Real-ESRGAN
@@ -28,39 +28,47 @@ David AI 2B is an AI-powered offline assistant developed by **Nexuzy Tech Pvt Lt
 |---------------|-------------------|
 | CPU           | Intel i3 or above |
 | RAM           | 8 GB              |
-| GPU           | 4 GB              |
+| GPU           | 4 GB (recommended)|
 | Storage       | 80 GB free        |
-| OS            | Windows 10/11 64-bit |
+| OS            | Windows 10/11 64-bit or Linux |
 
 ---
 
 ## ⚙️ Step-by-Step Installation
 
-### 🔧 1. Set up Python Virtual Environment
+### 1. Set up Python Virtual Environment
 
 ```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate   # On Windows
+# OR
+source venv/bin/activate   # On Linux/Mac
 ```
+
+### 2. Clone the repository
 
 ```bash
-cd david-ai-2b-main
+git clone https://github.com/david0154/david-ai-2b.git
+cd david-ai-2b
 ```
 
-### 📦 2. Install All Dependencies
+### 3. Install PyTorch (required, not in requirements.txt)
+
+- **For CPU only:**
+  ```bash
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+  ```
+- **For Nvidia GPU:**  
+  [See official PyTorch instructions](https://pytorch.org/get-started/locally/)
+
+### 4. Install All Other Dependencies
 
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
- ### or
- 
-```bash
-python.exe -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
+---
 
 ## 🚀 First Run – Download All Models
 
@@ -69,11 +77,11 @@ python run.py
 ```
 
 ✅ This downloads all pretrained models into `models/`.  
-Works 100% offline after first run.
+Works 100% offline after the first run.
 
 ---
 
-## 🏗️ Build Standalone `.exe`
+## 🏗️ Build Standalone `.exe` (Windows)
 
 ### 1. Install PyInstaller
 
@@ -95,7 +103,7 @@ dist/
 
 ---
 
-## 📦 Create Offline Installer
+## 📦 Create Offline Installer (Windows)
 
 ### 1. Install Inno Setup
 
