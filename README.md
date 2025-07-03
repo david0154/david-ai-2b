@@ -53,7 +53,9 @@ cd david-ai-2b-main
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-           or
+
+ ### or
+ 
 ```bash
 python.exe -m pip install --upgrade pip
 pip install -r requirements.txt
