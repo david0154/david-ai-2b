@@ -4,7 +4,7 @@ import zipfile
 
 # Download links for pretrained open-source models
 MODEL_URLS = {
-    "chat": "https://huggingface.co/TheBloke/Mistral-7B-Instruct-GGUF/resolve/main/mistral-7b-instruct.ggml.q4_0.bin",
+    "chat": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/resolve/main/model.safetensors",
     "code": "https://huggingface.co/bigcode/starcoderbase-1b/resolve/main/model.bin",
     "image_gen": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/sd-v1-5-inference.zip",
     "deblur": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5/RealESRGAN_x4plus.pth",
