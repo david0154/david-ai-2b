@@ -1,9 +1,6 @@
 # 🔹 Core Flask App
 flask
 
-# 🔹 Local LLM Inference
-llama-cpp-python
-
 # 🔹 Transformers + Hugging Face models
 torch
 transformers
